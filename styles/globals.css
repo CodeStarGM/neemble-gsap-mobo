@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#fullpage {
+    transition-delay: 0.2s !important;
+}
+.anim {
+    opacity: 0;
+}

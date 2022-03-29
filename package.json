@@ -1,0 +1,29 @@
+{
+  "name": "neemble-io",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p {$PORT:-8080}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.22",
+    "chart.js": "^3.7.1",
+    "framer-motion": "^6.2.8",
+    "gsap": "^3.9.1",
+    "next": "12.0.7",
+    "next-transpile-modules": "^9.0.0",
+    "react": "17.0.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "17.0.2",
+    "react-intersection-observer": "^8.33.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}

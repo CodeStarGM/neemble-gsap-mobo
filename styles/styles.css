@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap");
+body {
+  /*background-color: rgb(15, 23, 46);*/
+  overflow-x: hidden;
+  font-family: "K2D", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  background: url(https://user-images.githubusercontent.com/26748614/112760946-182a8300-8ff9-11eb-9881-8ca96150852e.jpg) 75% 0% /140%;
+  animation: bg 25s linear infinite paused;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 100%;
+  animation: bg 20s infinite;
+}
+@keyframes bg {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#wrapper svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+}
+
+#wrapper svg polygon {
+  position: absolute;
+}
+
+#wrapper svg polygon.center {
+  opacity:0.7;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+#wrapper svg polygon.center:hover {
+  opacity:0.2;
+}
+
+/**********mob*******/
+#wrapperMob {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  animation: bgMob 25s linear infinite paused;
+}
+
+.bgMob {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 100%;
+  animation: bgMob 20s infinite;
+}
+@keyframes bgMob {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#wrapperMob svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+}
+
+#wrapperMob svg polygon {
+  position: absolute;
+}
+
+#wrapperMob svg polygon.center {
+  opacity:0.7;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+#wrapperMob svg polygon.center:hover {
+  opacity:0.2;
+}
+
+
+
+
+.bg-glass {
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+
+  box-shadow: 0 0 9px #00d8fa;
+}
+.bg-glass-high {
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
+
+.nav-blue {
+  box-shadow: 0 0 9px #00d8fa;
+}
+.nav-purple {
+  box-shadow: 0 0 9px #905fa8;
+}
+
+.bg-glass-purple {
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  box-shadow: 0 0 4px #e28fff;
+}
+
+.bg-glass-1 {
+  backdrop-filter: blur(49px);
+
+  border: 4px solid #253277;
+  box-shadow: 0 0 15px #49b6df, 0 0 30px #49b6df, 0 0 60px #49b6df,
+    0 0 150px #49b6df;
+}
+
+.link {
+  box-shadow: 0 0 14px #00d8fa;
+}
+
+.bg-royal {
+  background: #0d1834;
+}
+
+.team {
+  box-shadow: 0 0 10px #00d8fa;
+}
